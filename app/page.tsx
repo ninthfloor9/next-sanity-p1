@@ -1,7 +1,10 @@
+import { NextPage } from "next"
 
-export default function Home() {
+const Home : NextPage = () => {
   return (
     <main>hihi hello
     </main>
   )
 }
+
+export default Home;
